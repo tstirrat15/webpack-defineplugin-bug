@@ -1,0 +1,16 @@
+{
+  "name": "defineplugin-require-bug",
+  "version": "0.0.1",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "author": "Slawek Pruchnik",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^0.11.2",
+    "webpack": "^3.5.5"
+  },
+  "private": true
+}
