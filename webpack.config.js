@@ -7,6 +7,7 @@ module.exports = {
         filename: "bundle.js",
         publicPath: '/'
     },
+    mode: 'development',
     plugins: [
         new webpack.DefinePlugin({
             __FOO__: JSON.stringify('foo'),
