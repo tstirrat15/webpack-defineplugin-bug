@@ -1,4 +1,5 @@
-var name = 'source';
-var file = require('./' + __SUBDIR__  + '/' + name + __FILE_FORMAT__);
+import bar from './bar';
 
-console.log('The file', file);
+const foo = __FOO__;
+
+console.log(foo);
